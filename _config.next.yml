@@ -566,11 +566,11 @@ comments:
   style: tabs
   # Choose a comment system to be displayed by default.
   # Available values: changyan | disqus | disqusjs | gitalk | livere | valine
-  active:
+  active: valine
   # Setting `true` means remembering the comment system selected by the visitor.
   storage: true
   # Lazyload all comment systems.
-  lazyload: false
+  lazyload: true
   # Modify texts or order for any navs, here are some examples.
   nav:
     #disqus:
@@ -608,15 +608,15 @@ changyan:
 # Valine
 # For more information: https://valine.js.org, https://github.com/xCss/Valine
 valine:
-  enable: false
-  appId: # Your leancloud application appid
-  appKey: # Your leancloud application appkey
-  serverURLs: # When the custom domain name is enabled, fill it in here
-  placeholder: Just go go # Comment box placeholder
+  enable: true
+  appId: vmLS5dIXSmiiY624MnfYiuYY-9Nh9j0Va # Your leancloud application appid
+  appKey: 2JjfCjJP96nXWx2bAq1eTJNB # Your leancloud application appkey
+  serverURLs: https://vmls5dix.lc-cn-e1-shared.com # When the custom domain name is enabled, fill it in here
+  placeholder: Hello # Comment box placeholder
   avatar: mm # Gravatar style
   meta: [nick, mail, link] # Custom comment header
   pageSize: 10 # Pagination size
-  lang: # Language, available values: en, zh-cn
+  lang: zh-cn # Language, available values: en, zh-cn
   visitor: false # Article reading statistic
   comment_count: true # If false, comment count will only be displayed in post page, not in home page
   recordIP: false # Whether to record the commenter IP
