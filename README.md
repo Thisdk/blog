@@ -1,4 +1,4 @@
-## Jason' BLOG
+## J.Y's BLOG
 
 Hexo Blog Source Repository
 
